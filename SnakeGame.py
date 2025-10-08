@@ -23,5 +23,10 @@ while (food != "BIRD")
   else if randomNUM = 3
     food = "RAT"
   print(f"You have chosen... "+ food)
+  if  food = "BIRD"
+    printf()
+  else if food = "LIZARD"
+    minutesRemaining-=1
+    
 
 
