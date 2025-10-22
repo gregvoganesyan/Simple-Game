@@ -11,5 +11,5 @@
       - Download the SnakeGame.py file
       - Open Terminal
       - Make sure you are in the same directory as the file (eg: if the file is in the Downloads folder -> cd Downloads)
-      - Run this code in the terminal: python SnakeGame.py
+      - Run this code in the terminal: python3 SnakeGame.py
       
