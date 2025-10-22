@@ -1,6 +1,5 @@
 #AUTHOR: Gregory Oganesyan
 #AUTHOR: Jonathan Reyes
-#AUTHOR: Matthew Vasquez
 
 import random
 import sys
