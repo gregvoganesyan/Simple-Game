@@ -86,7 +86,39 @@ def main():
     print("However, you need energy to get to the FRONT DOOR. You can choose to eat a BIRD, LIZARD, or RAT. Only one option will give you enough energy to make it...\n")
     
     while True:
-        #same thing as above but now it is a different round
+        print("*********YOUR FOOD OPTIONS*********")
+        print("1) BIRD")
+        print("2) LIZARD")
+        print("3) RAT")
+        print("***********************************")
+        userOption = getNumberFromUser("ENTER THE NUMBER OF THE OPTION YOU WANT TO CHOOSE: ")
+
+        if userOption == 1:
+          food = "BIRD"
+        elif userOption == 2:
+          food = "LIZARD"
+        elif userOption == 3:
+          food = "RAT"
+        print(f"You have chosen... "+ food +"\n")
+        if  food==correctFood:
+            print(f"AMAZING! the "+food+" has given you enough energy to escape the FRONT DOOR!")
+            break
+        elif food != correctFood:
+            minutesRemaining-=1
+            if minutesRemaining<1:
+                print(f"NO!!! THE HUNTER HAS CAUGHT YOU!")
+                print(f"GAME OVER")
+                #the game ends if the time remaining is zero
+                sys.exit()
+            elif minutesRemaining == 1:
+                print(f"That was not enough energy to get your body to the front door!")
+                print(f"The hunter is now "+ str(minutesRemaining) + " minute remaining.")
+                print(f"You need energy to get to the FRONT DOOR. You can choose to eat a BIRD, LIZARD, or RAT. Only one option will give you enough energy to make it...")
+            else:
+                print(f"That was not enough energy to get your body to the front door!")
+                print(f"The hunter is now "+ str(minutesRemaining) + " minutes remaining.")
+                print(f"You need energy to get to the FRONT DOOR. You can choose to eat a BIRD, LIZARD, or RAT. Only one option will give you enough energy to make it...")
+
 
     #the user has successfully completed the second round and guessed the correct food. Now the correct food is randomized again for the last round
     randomNum = (random.randint(1, 3))
