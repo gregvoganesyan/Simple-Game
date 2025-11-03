@@ -8,7 +8,7 @@
 
 ## Running-the-Code:
   - For macOS:
-      - Download the SnakeGame.py file
+      - Download the ZIP
       - Open Terminal
       - Make sure you are in the same directory as the folder (eg: if the file is in the Downloads folder -> cd Downloads)
       - Run this code in the terminal: python3 SnakeGame.py
