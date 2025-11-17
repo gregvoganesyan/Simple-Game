@@ -181,10 +181,10 @@ def main():
                 slowPrintText("GAME OVER", Fore.RED)
                 sys.exit()
             elif minutesRemaining == 1:
-                slowPrintText("That was not enough energy to get to the backyard!", Fore.RED)
+                slowPrintText("That was not enough energy to get to the LIVING ROOM!", Fore.RED)
                 slowPrintText(f"The hunter is now {minutesRemaining} minute away!", Fore.RED)
             else:
-                slowPrintText("That was not enough energy to get to the backyard!", Fore.RED)
+                slowPrintText("That was not enough energy to get to the LIVING ROOM!", Fore.RED)
                 slowPrintText(f"The hunter is now {minutesRemaining} minutes away!", Fore.RED)
 
     randomNum = random.randint(1, 3)
@@ -198,7 +198,7 @@ def main():
     slowPrintText("Congrats, you are now a snake, and you are trapped inside a house!", Fore.YELLOW)
     slowPrintText(f"You hear a hunter approaching and you have {minutesRemaining} minutes remaining until the hunter catches you!", Fore.YELLOW)
     slowPrintText("You have to get to the FRONT DOOR before he finds you!", Fore.YELLOW)
-    slowPrintText("However, you need energy to get to the LIVING ROOM. You can choose to eat a BIRD, LIZARD, or RAT.", Fore.YELLOW)
+    slowPrintText("However, you need energy to get to the FRONT DOOR. You can choose to eat a BIRD, LIZARD, or RAT.", Fore.YELLOW)
     slowPrintText("Only one option will give you enough energy to make it...", Fore.YELLOW)
 
     playWaitingMusic()
@@ -233,10 +233,10 @@ def main():
                 slowPrintText("GAME OVER", Fore.RED)
                 sys.exit()
             elif minutesRemaining == 1:
-                slowPrintText("That was not enough energy to get to the backyard!", Fore.RED)
+                slowPrintText("That was not enough energy to get to the FRONT DOOR!", Fore.RED)
                 slowPrintText(f"The hunter is now {minutesRemaining} minute away!", Fore.RED)
             else:
-                slowPrintText("That was not enough energy to get to the backyard!", Fore.RED)
+                slowPrintText("That was not enough energy to get to the FRONT DOOR!", Fore.RED)
                 slowPrintText(f"The hunter is now {minutesRemaining} minutes away!", Fore.RED)
 
     randomNum = random.randint(1, 3)
@@ -250,7 +250,7 @@ def main():
     slowPrintText("Congrats, you are now a snake, and you are trapped inside a house!", Fore.YELLOW)
     slowPrintText(f"You hear a hunter approaching and you have {minutesRemaining} minutes remaining until the hunter catches you!", Fore.YELLOW)
     slowPrintText("You have to get to the BACKYARD before he finds you!", Fore.YELLOW)
-    slowPrintText("However, you need energy to get to the LIVING ROOM. You can choose to eat a BIRD, LIZARD, or RAT.", Fore.YELLOW)
+    slowPrintText("However, you need energy to get to the BACKYARD. You can choose to eat a BIRD, LIZARD, or RAT.", Fore.YELLOW)
     slowPrintText("Only one option will give you enough energy to make it...", Fore.YELLOW)
 
     playWaitingMusic()
@@ -285,10 +285,10 @@ def main():
                 slowPrintText("GAME OVER", Fore.RED)
                 sys.exit()
             elif minutesRemaining == 1:
-                slowPrintText("That was not enough energy to get to the backyard!", Fore.RED)
+                slowPrintText("That was not enough energy to get to the BACKYARD!", Fore.RED)
                 slowPrintText(f"The hunter is now {minutesRemaining} minute away!", Fore.RED)
             else:
-                slowPrintText("That was not enough energy to get to the backyard!", Fore.RED)
+                slowPrintText("That was not enough energy to get to the BACKYARD!", Fore.RED)
                 slowPrintText(f"The hunter is now {minutesRemaining} minutes away!", Fore.RED)
 
     stop_music()
