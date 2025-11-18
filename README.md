@@ -16,7 +16,14 @@
       - Open Terminal
       - Make sure you are in the same directory as the folder (eg: if the file is in the Downloads folder -> cd Downloads)
       - Run this code in the terminal: python3 SnakeGame.py
-      
+      - If python3 does not work, try python SnakeGame.py      
+  - For Windows:
+      - Download the ZIP
+      - Open Command Prompt
+      - Make sure you are in the same directory as the folder (eg: if the file is in the Downloads folder -> cd %HOMEPATH%\Downloads)
+      - Run this code in Command Prompt: python3 SnakeGame.py
+      - If python3 does not work, try python SnakeGame.py
+       
 ## Controls: 
   - The game takes a keyboard input from the user (1, 2, or 3)
   - The user must input the desired number and press enter, an error message will occur if any other character/string is entered
