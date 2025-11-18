@@ -1,5 +1,9 @@
 # Snake-Snack
 
+## Creators: 
+  - Gregory Oganesyan (Team Lead)
+  - Jonathan Reyes (Developer)
+
 ## Game-Description: 
   - You are a snake and a hunter is trying to catch you.
   - You must make it out of the Living Room, Front Door, and Backyard to be safe.
@@ -13,3 +17,6 @@
       - Make sure you are in the same directory as the folder (eg: if the file is in the Downloads folder -> cd Downloads)
       - Run this code in the terminal: python3 SnakeGame.py
       
+## Controls: 
+  - The game takes a keyboard input from the user (1, 2, or 3)
+  - The user must input the desired number and press enter, an error message will occur if any other character/string is entered
